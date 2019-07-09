@@ -82,3 +82,20 @@ form input{
   font-size:12px;
   color:#757575;
 }
+
+.container-footer-text{
+  text-align: center;
+  color:gray;
+  font-size: 12px;
+  
+  padding: 0;
+}
+.container-footer-text a{
+  text-decoration-color: none;
+  color:gray;
+  text-decoration-line: none;
+}
+
+#container-footer{
+  
+}
