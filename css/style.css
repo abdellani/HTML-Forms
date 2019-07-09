@@ -1,0 +1,24 @@
+body{
+  background-color: #eceef1;
+}
+#container-signin{
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+#signin-botton{
+  background-color: #0077c5;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 34px;
+  width: 100px;
+  margin-left: 10px; 
+}
+#signin-text{
+  font-size:12px;
+  color:#505050;
+}
+#signin-text p {
+  margin: 1px; 
+}
