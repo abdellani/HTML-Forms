@@ -47,7 +47,7 @@ body{
 }
 
 #container-form{
-  width:50%;
+  width:30%;
   background-color: white;
   border: 1px solid #c7c7c7;
   margin:auto;
@@ -64,9 +64,21 @@ form label{
 form input{
   display: block;
   width: 80%;
+  height: 30px;
   margin: auto;
+  border:1px solid #c1c5c8;
+  border-radius: 3px;
   margin-bottom: 15px;
+  
 }
+
+
+form input[type='password']{
+  background: url(../images/lock.png) 0 50%/21px 21px no-repeat;
+  background-position-x: right 2%;
+
+}
+
 #submit-button{
   background: #0077c5;
   border:none;
@@ -83,19 +95,40 @@ form input{
   color:#757575;
 }
 
+#form-container-recaptcha{
+  color:#8d9096;
+  background-color: #eceef1;
+  margin-bottom: 0;
+  height:40px;
+  padding:15px;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#form-container-recaptcha a{
+  color:blue;
+}
+
 .container-footer-text{
   text-align: center;
   color:gray;
   font-size: 12px;
-  
+  margin:0;
+  color:#505050;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
   padding: 0;
 }
+
+
+#container-footer{
+  margin-top:30px;
+}
+
 .container-footer-text a{
   text-decoration-color: none;
-  color:gray;
+  color:#505050;;
+  
   text-decoration-line: none;
 }
 
-#container-footer{
-  
-}
